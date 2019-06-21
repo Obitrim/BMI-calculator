@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMI Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- custom stylesheets -->
+    <link rel="stylesheet" href="./css/bmi.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="bmi-container">
+        <img id="logo" src="./assets/images/logo.png" alt="hospital logo" />
+
+        <!-- screen 1 -- home screen -->
+        <div class="screen">
+            <div class="screen-content">
+                <h2>BMI calculator</h2>
+                <p>Calculate your body-mass index by following these steps</p>
+                <ul>
+                    <li>Enter your weight in <strong>kilogram(kg)</strong></li>
+                    <li>Enter your height in <strong>metres(m)</strong></li>
+                    <li>Click calculate button to calculate your body mass weight</li>
+                </ul>
+            </div>
+
+            <div class="button-bar">
+                <div class="btn btn-match-parent btn-start">Start</div>
+            </div>
+        </div>
+
+        <!-- screen 2 -- weight input screen -->
+        <div class="screen">
+            <div class="screen-content">
+                <h2>Weight in <small>kg</small></h2>
+                <form>
+                    <img src="./assets/images/weight.png" width="100px" height="auto" alt="weight img">
+                    <input type="number" required>
+                </form>
+            </div>
+
+            <div class="button-bar">
+                <span class="btn btn-back">Back</span>
+                <span class="btn btn-next">Next</span>
+            </div>
+        </div>
+
+        <!-- screen 3 -- height input screen -->
+        <div class="screen">
+            <div class="screen-content">
+                <h2>Height in <strong>m</strong></h2>
+                <form>
+                    <img src="./assets/images/height.jpg" width="100px" height="auto" alt="heights img"> 
+                    <input type="number" required>
+                </form>
+            </div>
+
+
+            <div class="button-bar">
+                <span class="btn btn-back">Back</span>
+                <span class="btn btn-calculateBMI">Calculate BMI</span>
+            </div>
+        </div>
+
+        <!-- screen 4   -- Result screen -->
+        <div class="screen">
+            <div class="screen-content">
+                <p>Your BMI is <br> <span id="bmi-value">00</span></p>
+            </div>
+
+            <span id="rate"></span>
+
+            <div id="rating-bar-container">
+                <div id="bar"></div>
+            </div>
+
+
+            <div class="button-bar">
+                <div class="btn btn-match-parent btn-reset">Reset</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/bmi.js" type="text/javascript"></script>
+</body>
+
+</html>
