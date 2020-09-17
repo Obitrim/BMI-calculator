@@ -1,0 +1,48 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+  box-sizing: !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--middle-tone);
+  min-height: 100vh !important;
+
+  --primary: #50D3E6;
+  --light-tone: rgba(255, 255, 255, 0.8);
+  --middle-tone: #EDEDED;
+  --dark-tone: #D7D7DF99;
+  --pneumo-shadow: 5px 5px 15px var(--dark-tone), -5px -5px 15px var(--light-tone);
+  --inset-pneumo-shadow: inset 5px 5px 15px var(--dark-tone), inset -5px -5px 15px var(--light-tone);
+  --b-radius: 5px;
+  --box-whitespace: 3rem 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.PneumoShadow {
+	box-shadow: var(--pneumo-shadow);
+}
+
+.Container {
+  max-width: 778px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.FullHeight {
+  height: 100%;
+}
+
+.FullScreenHeight {
+  min-height: 100vh;
+}

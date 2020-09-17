@@ -1,0 +1,72 @@
+.BmiInfo {
+	padding-bottom: 3rem;
+}
+
+.InfoConsequences,
+.Interpretation,
+.InfoDefinition {
+	padding: 1.5rem;
+	border-radius: var(--b-radius);
+}
+
+.BmiInfo a {
+	color: var(--primary);
+	text-decoration: none;
+}
+
+.BmiInfo a:hover {
+	text-decoration: underline;
+}
+
+.InfoConsequences p,
+.Interpretation p,
+.InfoDefinition p {
+	margin-top: 1rem;
+	font-size: 0.95rem;
+	line-height: 160%;
+}
+
+.Section__Heading {
+	font-size: 1.8rem;
+	color: var(--primary);
+}
+
+.InfoConsequences,
+.Interpretation {
+	margin-top: 2rem;
+}
+
+.InfoConsequences__HealthEffectsList {
+	margin: 1rem 0;
+	margin-left: 0.5rem;
+	list-style: none;
+}
+
+.TableResponsive {
+	overflow-x: auto;
+}
+
+.Table {
+	width: 100%;
+	margin: 1rem 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.sr-only {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.Table td,
+.Table th {
+	padding: 1rem 0 !important;
+}
+
+.Table tr {
+	border-top: 1px solid #dee2e6;
+}
+
+.TableBordered {
+	border: 1px solid #dee2e6;
+}

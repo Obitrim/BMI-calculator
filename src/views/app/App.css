@@ -1,0 +1,17 @@
+.App {
+	overflow-x: hidden;
+}
+
+.App__Slider {
+	width: 200%;
+	display: flex;
+	transition: margin-left 0.25s ease-in-out;
+}
+
+.App__Slider--ShiftLeft {
+	margin-left: -100%;
+}
+
+.App__Slider > * {
+	flex: 1;
+}

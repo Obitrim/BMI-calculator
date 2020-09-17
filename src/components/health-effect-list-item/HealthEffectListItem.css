@@ -1,0 +1,11 @@
+.HealthEffectsList__Item {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0;
+}
+
+.HealthEffectsList__Item .StarIcon {
+	margin-right: 0.8rem;
+	color: var(--primary);
+	font-size: 1.3rem;
+}

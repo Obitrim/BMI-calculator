@@ -1,0 +1,62 @@
+.NavButton {
+	border: none;
+	background: transparent;
+	border-radius: var(--b-radius);
+	padding: 0.5rem;
+
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	transition: 0.15s;
+}
+
+.NavButton:hover {
+	cursor: pointer;
+	color: var(--primary);
+}
+
+.NavButton:active,
+.NavButton:focus {
+	box-shadow: var(--inset-pneumo-shadow);
+	color: var(--primary);
+}
+
+.IconBox {
+	margin-right: 1rem;
+	display: grid;
+	place-items: center;
+	background-color: var(--dark-tone);
+	padding: 1rem;
+}
+
+.IconBox .MuiSvgIcon-root {
+	font-size: 2rem !important;
+}
+
+.ChevronRight {
+	margin-left: auto !important;
+}
+
+.BtnText {
+	font-weight: 600;
+}
+
+@media(min-width: 576px) {
+	.NavButton {
+		flex-direction: column;
+		padding: 2rem 0;
+	}
+
+	.IconBox {
+		margin-right: 0;
+	}
+
+	.ChevronRight  {
+		display: none !important;
+	}
+
+	.BtnText {
+		margin-top: 1.4rem;
+	}
+}

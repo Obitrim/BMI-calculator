@@ -1,0 +1,13 @@
+.QuickLinks {
+	padding: 1.4rem;
+	margin-top: 2rem;
+	border-radius: var(--b-radius);
+}
+
+.QuickLinks h3 {
+	font-size: 1.3rem;
+}
+
+.QuickLinks a {
+	margin-top: 1.4rem;
+}

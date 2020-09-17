@@ -1,0 +1,44 @@
+.Home {
+	padding-bottom: 3rem;
+}
+
+.Header {
+	padding: var(--box-whitespace);
+	border-radius: var(--b-radius);
+	margin: 1.5rem 0;
+}
+
+.Header__ImgBox__Img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.Header__IntroBox {
+	margin-top: 1.5rem;
+}
+
+.Header__IntroBox__Heading {
+	font-size: 1.4rem;
+}
+
+.HomeMain {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 1.4rem;
+}
+
+@media(min-width: 768px) {
+	.Header {
+		display: flex;
+	}
+
+	.Header__ImgBox {
+		max-width: 400px;
+	}
+
+	.Header__IntroBox {
+		margin-top: 0;
+		margin-left: 1.5rem;
+	}
+}
