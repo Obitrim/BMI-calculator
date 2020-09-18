@@ -23,7 +23,7 @@ const BmiInfo = (props) => {
 
   return (
     <div className="BmiInfo">
-    	<img src="/images/obesity.png" alt="human with food illustration" />
+    	<img className="BmiInforBox__Img" src="/images/obesity.png" alt="human with food illustration" />
     	<section className="InfoDefinition PneumoShadow">
     		<h1 className="Section__Heading">What is BMI</h1>
     		<p>

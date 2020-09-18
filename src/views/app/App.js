@@ -31,14 +31,14 @@ function App() {
 	const [contentViewVisible, setContentViewVisible] = useState(false);
 
 	function viewContent(childView){
-		document.documentElement.scrollTop = 0;
+		document.documentElement.scrollTop = "0px";
 		childView = childView.trim().toLowerCase();
 		setCurrentView(views[childView]);
 		setContentViewVisible(true);
 	}
 
 	function backHome(){
-		document.documentElement.scrollTop = 0;
+		document.documentElement.scrollTop = "0px";
 		setContentViewVisible(false);
 	}
 

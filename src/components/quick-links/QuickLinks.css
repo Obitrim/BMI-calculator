@@ -10,4 +10,5 @@
 
 .QuickLinks a {
 	margin-top: 1.4rem;
+	color: var(--primary);
 }

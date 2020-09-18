@@ -16,7 +16,9 @@ const index = ({ view, backHome, navText }) => {
                 </button>
                 <span className="Navbar__Text">{ navText }</span>
             </nav>
-        {view}   
+        <div className="ChildView__View">
+            {view}  
+        </div> 
         </div>
     </div>
   )

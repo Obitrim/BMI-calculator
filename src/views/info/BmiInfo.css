@@ -2,6 +2,11 @@
 	padding-bottom: 3rem;
 }
 
+.BmiInforBox__Img {
+	width: 100%;
+	height: auto;
+}
+
 .InfoConsequences,
 .Interpretation,
 .InfoDefinition {

@@ -6,10 +6,11 @@ import Navbutton from "../../components/buttons/NavButton";
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+import QuickLinks from '../../components/quick-links/QuickLinks';
 
 const Home = ({viewContent}) => {
   return (
-    <div className="Home FullScreenHeight">
+    <div className="Home">
     	<div className="Container">
     		<header className="Header PneumoShadow">
 	    		<div className="Header__ImgBox">
@@ -36,6 +37,8 @@ const Home = ({viewContent}) => {
 	    			onClick={() => viewContent('faq')}  
 	    			icon={<HelpIcon/>}/>
 	    	</main>
+	    	<img className="Home__DoctorsImg2" src="/images/doctors2.png" alt="health illustration" />
+	    	<QuickLinks/>
     	</div>
     </div>
   )
