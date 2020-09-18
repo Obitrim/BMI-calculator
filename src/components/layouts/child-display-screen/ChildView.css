@@ -1,7 +1,23 @@
+.ChildView {
+	position: absolute;
+	top: 0;
+	left: 50%;
+
+	width: 50%;
+	height: 100vh;
+	overflow-y: auto;
+}
+
 .Navbar {
 	display: flex;
 	align-items: center;
 	padding: 0.8rem 0;
+	background: var(--middle-tone);
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	z-index: 999;
 }
 
 .Navbar__BackBtn {
@@ -26,4 +42,8 @@
 .Navbar__Text {
 	font-weight: 550;
 	text-transform: capitalize;
+}
+
+.ChildView__View {
+	margin-top: 3rem;
 }

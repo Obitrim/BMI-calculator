@@ -11,7 +11,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--middle-tone);
-  min-height: 100vh !important;
 
   --primary: #50D3E6;
   --light-tone: rgba(255, 255, 255, 0.8);
