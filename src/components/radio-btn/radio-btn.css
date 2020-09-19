@@ -1,0 +1,59 @@
+.CustomRadio {
+	text-align: center;
+	width: 100%;
+}
+
+.CustomRadio + .CustomRadio {
+	margin-left: 1.4rem;
+}
+
+.RadioBtn__Input {
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.RadioBtn__Input:checked + .RadioBtn__Toggler {
+	box-shadow: var(--inset-pneumo-shadow);
+	border: 2px solid var(--primary);
+}
+
+.RadioBtn__Input:checked + .RadioBtn__Toggler::before {
+	display: block;
+}
+
+.RadioBtn__Toggler {
+	--check-indicator-size: 30px;
+
+	display: block;
+	padding: 2rem;
+	overflow: hidden;
+	border-radius: var(--b-radius);
+
+	position: relative;
+}
+
+.RadioBtn__Toggler::before {
+	content: '';
+	width: var(--check-indicator-size);
+	height: var(--check-indicator-size);
+	background-color: var(--primary);
+
+	position: absolute;
+	top: calc(var(--check-indicator-size) / 2 * -1);
+	left: calc(var(--check-indicator-size) / 2 * -1);
+
+	display: none;
+	border-radius: 50%;
+}
+
+.RadioBtn__Toggler:hover {
+	cursor: pointer;
+	background-color: var(--dark-tone);
+}
+
+.RadioBtn__Toggler img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
