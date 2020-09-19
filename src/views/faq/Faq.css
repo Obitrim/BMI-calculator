@@ -1,0 +1,16 @@
+.Faq {
+	border-radius: var(--b-radius);
+	margin-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.Faq__Img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.Faq__Questions {
+	overflow: hidden;
+	border-radius: var(--b-radius);
+}
