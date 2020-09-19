@@ -1,0 +1,25 @@
+.SliderWrapper,
+.SliderWrapper__RangeInput {
+	width: 100%;
+}
+
+.SliderWrapper__Box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 0.5rem;
+}
+
+.SliderOutput {
+	box-shadow: var(--inset-pneumo-shadow);
+	border: 2px solid var(--primary);
+	padding: 0.5rem;
+	min-width: 60px;
+	border-radius: calc(var(--b-radius) * 2/3);
+	
+	color: var(--primary);
+	font-weight: 600;
+	text-align: center;
+	font-size: 1.1rem;
+}

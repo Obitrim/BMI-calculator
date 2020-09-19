@@ -9,3 +9,34 @@
 [isSelected] {
 	border: 1px solid red;
 }
+
+.ControlWrapper {
+	margin-top: 2rem;
+	border-radius: var(--b-radius);
+	overflow: hidden;
+	padding: 1.4rem;
+}
+
+.Calculator__SubmitBtn {
+	width: 100%;
+	margin-top: 2rem;
+	border-radius: var(--b-radius);
+	border: none;
+	background-color: var(--primary);
+	padding: 0.6rem 0;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+	font-size: 1.4rem;
+	color: var(--light-tone);
+
+	display: flex;
+	justify-content: center;
+	align-content: align;
+
+	transition: 0.25s;
+}
+
+.Calculator__SubmitBtn:hover {
+	cursor: pointer;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}

@@ -57,7 +57,7 @@ const Faq = (props) => {
 	]);
 
 	return (
-		<div className="Container Faq">
+		<div className="Faq">
 			<img src="/images/faq.png" alt="" className="Faq__Img" />
 			<div className="Faq__Questions PneumoShadow">
 				{faqs.map((faq, index) => (
