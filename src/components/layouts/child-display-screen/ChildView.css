@@ -30,6 +30,11 @@
 	background: transparent;
 }
 
+.Navbar__BackBtn:hover {
+	cursor: pointer;
+	background-color: var(--dark-tone);
+}
+
 .Navbar__BackBtn:focus,
 .Navbar__BackBtn:active {
 	color: var(--primary);
