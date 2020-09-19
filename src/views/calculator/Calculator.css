@@ -1,0 +1,11 @@
+.Calculator {
+	margin-top: 5rem;
+}
+
+.GenderBox {
+	display: flex;
+}
+
+[isSelected] {
+	border: 1px solid red;
+}
