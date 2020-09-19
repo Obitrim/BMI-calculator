@@ -1,0 +1,38 @@
+.CollapsibleCard__Toggler {
+	border: none;
+	border-bottom: 0.5px solid var(--dark-tone);
+	background-color: transparent;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.CollapsibleCard__Toggler:hover {
+	cursor: pointer;
+}
+
+.CollapsibleCard__Toggler__Text {
+	font-size: 0.95rem;
+	font-weight: 600;
+}
+
+.CollapsibleCard__Content {
+	overflow: hidden !important;
+	box-shadow: var(--inset-pneumo-shadow);
+}
+
+.CollapsibleCard__Content--Collapsed {
+	max-height: 0 !important;
+}
+
+.CollapsibleCard__Toggler,
+.CollapsibleCard__Content__Inner {
+	padding: 0.5rem 1rem;
+}
+
+.CollapsibleCard__Content__Inner {
+	font-size: 0.95rem;
+	line-height: 160%;
+}
