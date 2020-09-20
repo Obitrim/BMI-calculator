@@ -1,0 +1,20 @@
+.ReferenceLinks {
+	padding: 1.4rem;
+	margin-top: 2rem;
+	border-radius: var(--b-radius);
+}
+
+.ReferenceLinks h3 {
+	font-size: 1.3rem;
+}
+
+.ReferenceLinks a {
+	margin-top: 1.4rem;
+	color: var(--primary);
+}
+
+.ReferenceLinks__ReferenceList {
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+	text-align: left;
+}
