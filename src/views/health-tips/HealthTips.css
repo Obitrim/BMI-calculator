@@ -1,0 +1,21 @@
+.HealthTips {
+	margin-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.HealthTip {
+	margin-top: 2rem;
+	border-radius: var(--b-radius);
+	overflow: hidden;
+	padding: 1.5rem;
+}
+
+.HealthTip__Title {
+	color: var(--primary);
+	font-size: 1.8rem;
+}
+
+.HealthTip p {
+	line-height: 150%;
+	margin-top: 1rem;
+}
