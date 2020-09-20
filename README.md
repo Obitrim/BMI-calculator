@@ -15,15 +15,9 @@ known as the body fat index, is. It Provides health tips to help improve one's B
 
 ## Key functionalities
 * Calculate your Body Mass Index
-** Get to know about what BMI is about.
-*** Get some health tips from good sources as to how to manage a high BMI
+* Get to know about what BMI is about.
+* Get some health tips from good sources as to how to manage a high BMI
 
-## Screenshots
-#### Home Page
-![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-home.png)
-
-#### Calculator Application
-![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-desktop.png)
 
 ## Available Scripts
 
@@ -51,3 +45,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Screenshots
+#### Home Page
+![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-home.png)
+
+#### Calculator Application
+![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-desktop.png)
