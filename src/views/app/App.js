@@ -29,14 +29,25 @@ const views = {
 function App() {
 	const [currentView, setCurrentView] = useState({});
 	const [contentViewVisible, setContentViewVisible] = useState(false);
-
+	/**
+	 *
+	 * Prepares View to be mounted
+	 * 
+	 * @params {Object} childView
+	 *
+	 * @returns {undefined}
+	 */
 	function viewContent(childView){
 		document.documentElement.scrollTop = "0px";
 		childView = childView.trim().toLowerCase();
 		setCurrentView(views[childView]);
 		setContentViewVisible(true);
 	}
-
+	/**
+	 *
+	 * Returns view to home
+	 * @returns {undefined}
+	 */
 	function backHome(){
 		document.documentElement.scrollTop = "0px";
 		setContentViewVisible(false);

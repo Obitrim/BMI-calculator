@@ -1,6 +1,6 @@
 import './BmiInfo.css';
 import React, { useState } from 'react';
-import QuickLinks from '../../components/quick-links/QuickLinks';
+import ReferenceLinks from '../../components/reference-links/ReferenceLinks';
 import HealthEffectListItem from '../../components/health-effect-list-item/HealthEffectListItem';
 
 const BmiInfo = (props) => {
@@ -89,10 +89,11 @@ const BmiInfo = (props) => {
     			}
     		</ul>
     		<p>
-    			For more information on the effects of obesity visit <a href="https://www.cdc.gov/healthyweight/effects/index.html">health effects</a>
+    			For more information on the effects of obesity visit 
+                <a href="https://www.cdc.gov/healthyweight/effects/index.html">health effects</a>
     		</p>
     	</section>
-    	<QuickLinks/>
+    	<ReferenceLinks/>
     </div>
   )
 }

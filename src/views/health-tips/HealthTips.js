@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HealthTips.css';
 import CollapsibleCard from "../../components/collapsible-card";
-import QuickLinks from "../../components/quick-links/QuickLinks";
+import ReferenceLinks from "../../components/reference-links/ReferenceLinks";
 
 const HealthTips = (props) => {
 	const [activityTips] = useState([
@@ -109,7 +109,7 @@ const HealthTips = (props) => {
 					If needed, you may need to see a dietician to achieve your health goals.
 				</p>
 			</article>
-			<QuickLinks className="HealthTip"/>
+			<ReferenceLinks className="HealthTip"/>
 		</div>
 	)
 }

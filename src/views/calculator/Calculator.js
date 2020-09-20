@@ -55,7 +55,16 @@ const BMICalculator = (props) => {
 	function onAgeChangeHandler(evt){
 		setAge(Number(evt.target.value));
 	}
-
+	/**
+	 *
+	 * checks if a patient is underweight
+	 *
+	 * @param {Number} bmiVal - calculated bmiVal
+	 * @param {Number} age - patient's age
+	 * @param {String} gender - Patient's gender
+	 *
+	 * @returns {Boolean};
+	 */
 	function isUnderweight(bmiVal, age, gender){
 		let isUnderweight = false;
 		if(gender.toUpperCase() === "MALE"){
@@ -76,7 +85,16 @@ const BMICalculator = (props) => {
 		}
 		return isUnderweight;
 	}
-
+	/**
+	 *
+	 * checks if a patient has an optimal BMI value
+	 *
+	 * @param {Number} bmiVal - calculated bmiVal
+	 * @param {Number} age - patient's age
+	 * @param {String} gender - Patient's gender
+	 *
+	 * @returns {Boolean};
+	 */
 	function hasOptimalBmi(bmiVal, age, gender){
 		let bmiIsOptimal = false;
 		if(gender.toUpperCase() === "MALE"){
@@ -97,7 +115,16 @@ const BMICalculator = (props) => {
 		}
 		return bmiIsOptimal;
 	}
-
+	/**
+	 *
+	 * checks if an individual is Overweight
+	 *
+	 * @param {Number} bmiVal - calculated bmiVal
+	 * @param {Number} age - patient's age
+	 * @param {String} gender - Patient's gender
+	 *
+	 * @returns {Boolean};
+	 */
 	function isOverweight(bmiVal, age, gender){
 		let isOverweight = false;
 		if(gender.toUpperCase() === "MALE"){
@@ -118,7 +145,15 @@ const BMICalculator = (props) => {
 		}
 		return isOverweight;
 	}
-
+	/**
+	 *
+	 * Handles handles form submission by evaluating
+	 * Patient's data for his or here BMI
+	 *
+	 * @param {Object} evt - Event Object
+	 *
+	 * @returns {undefined};
+	 */
 	function handleSubmit(evt){
 		evt.preventDefault();
 		let bmiVal = weight / (height ** 2);
@@ -138,7 +173,7 @@ const BMICalculator = (props) => {
 			title: 'Evaluation Results',
 			text: `Gender: ${gender}\nBMI value: ${bmiVal}\nStatus: ${status}`,
 			icon: 'success'
-		})
+		});
 	}
 
 	return (

@@ -6,7 +6,7 @@ import Navbutton from "../../components/buttons/NavButton";
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
-import QuickLinks from '../../components/quick-links/QuickLinks';
+import ReferenceLinks from '../../components/reference-links/ReferenceLinks';
 
 const Home = ({viewContent}) => {
   return (
@@ -38,7 +38,7 @@ const Home = ({viewContent}) => {
 	    			icon={<HelpIcon/>}/>
 	    	</main>
 	    	<img className="Home__DoctorsImg2" src="/images/doctors2.png" alt="health illustration" />
-	    	<QuickLinks/>
+	    	<ReferenceLinks/>
     	</div>
     </div>
   )

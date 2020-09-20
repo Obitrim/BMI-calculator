@@ -1,6 +1,6 @@
 import "./Faq.css";
 import React, { useState } from 'react';
-import QuickLinks from '../../components/quick-links/QuickLinks';
+import ReferenceLinks from '../../components/reference-links/ReferenceLinks';
 import CollapsibleCard from '../../components/collapsible-card';
 
 const Faq = (props) => {
@@ -58,13 +58,13 @@ const Faq = (props) => {
 
 	return (
 		<div className="Faq">
-			<img src="/images/faq.png" alt="" className="Faq__Img" />
+			<img src="/images/faq.png" alt="FAQ illustration" className="Faq__Img" />
 			<div className="Faq__Questions PneumoShadow">
 				{faqs.map((faq, index) => (
 					<CollapsibleCard title={faq.question} content={faq.answer} key={index}/>
 					))}
 			</div>
-			<QuickLinks/>
+			<ReferenceLinks/>
 		</div>
 	)
 }
