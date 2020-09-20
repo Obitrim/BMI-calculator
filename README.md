@@ -14,9 +14,9 @@ known as the body fat index, is. It Provides health tips to help improve one's B
 5. Open [http://localhost:3000] to view app in the browser.
 
 ## Key functionalities
-*. Calculate your Body Mass Index
-**. Get to know about what BMI is about.
-***.  Get some health tips from good sources as to how to manage a high BMI
+* Calculate your Body Mass Index
+** Get to know about what BMI is about.
+*** Get some health tips from good sources as to how to manage a high BMI
 
 ## Screenshots
 ![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-desktop.png)
