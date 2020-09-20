@@ -4,8 +4,13 @@ import './QuickLinks.css';
 const QuickLinks = (props) => {
   return (
     <div className="PneumoShadow QuickLinks">
-    	<h3>Reference</h3>
-    	<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html">Centre for Disease Control and Prevention</a>
+    	<h3>References</h3>
+    	<ol type="I" className="QuickLinks__ReferenceList">
+    		<li><a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html">BMI information from Centre for Disease Control and Prevention</a></li>
+    		<li><a href="https://www.hioscar.com/blog/how-to-maintain-a-healthy-body-mass-index-bmi">Read Body Mass Index from Hioscor.com</a></li>
+    		<li><a href="https://www.hioscar.com/blog/how-to-stay-active-and-why-it-matters-for-your-health">How to keep active to reduce your BMI</a></li>
+    		<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681110/">How Age range and gender effects on BMI was gotten from the Korean Populace</a></li>
+    	</ol>
     </div>
   )
 }

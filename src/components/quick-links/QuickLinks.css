@@ -12,3 +12,9 @@
 	margin-top: 1.4rem;
 	color: var(--primary);
 }
+
+.QuickLinks__ReferenceList {
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+	text-align: left;
+}
