@@ -14,8 +14,8 @@ body {
 
   --primary: #50D3E6;
   --light-tone: rgba(255, 255, 255, 0.8);
-  --middle-tone: #D7D7DF99;
-  --dark-tone: #00000033;
+  --middle-tone: #EDEDED;
+  --dark-tone: #D7D7DF99;
   --pneumo-shadow: 5px 5px 15px var(--dark-tone), -5px -5px 15px var(--light-tone);
   --inset-pneumo-shadow: inset 5px 5px 15px var(--dark-tone), inset -5px -5px 15px var(--light-tone);
   --b-radius: 5px;
@@ -25,6 +25,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 578px){
+  body {
+    --middle-tone:  #D7D7DF99 !important;
+    --dark-tone:  #00000033 !important;
+  }
 }
 
 
