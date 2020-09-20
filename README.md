@@ -11,6 +11,7 @@ known as the body fat index, is. It Provides health tips to help improve one's B
 2. Cd into directory of cloned project ```cd <cloned-project-directory-name>``` 
 3. Install dependencies with ```npm install```
 4. Run ```npm start```
+5. Open [http://localhost:3000] to view app in the browser.
 
 ## Key functionalities
 *. Calculate your Body Mass Index
@@ -19,8 +20,6 @@ known as the body fat index, is. It Provides health tips to help improve one's B
 
 ## Screenshots
 ![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-desktop.png)
-
-![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-mobile.png)
 
 ## Available Scripts
 
