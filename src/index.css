@@ -14,8 +14,8 @@ body {
 
   --primary: #50D3E6;
   --light-tone: rgba(255, 255, 255, 0.8);
-  --middle-tone: #EDEDED;
-  --dark-tone: #D7D7DF99;
+  --middle-tone: #D7D7DF99;
+  --dark-tone: #00000033;
   --pneumo-shadow: 5px 5px 15px var(--dark-tone), -5px -5px 15px var(--light-tone);
   --inset-pneumo-shadow: inset 5px 5px 15px var(--dark-tone), inset -5px -5px 15px var(--light-tone);
   --b-radius: 5px;

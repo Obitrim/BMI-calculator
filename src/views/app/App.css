@@ -7,7 +7,7 @@
 .App__Slider {
 	position: relative;
 	width: 200%;
-	transition: margin-left 0.25s ease-in-out;
+	transition: margin-left 0.15s ease-in-out;
 }
 
 .App__Slider--ShiftLeft {
