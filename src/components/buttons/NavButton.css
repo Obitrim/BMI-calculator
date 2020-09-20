@@ -26,7 +26,8 @@
 	margin-right: 1rem;
 	display: grid;
 	place-items: center;
-	background-color: var(--dark-tone);
+	/*background-color: var(--dark-tone);*/
+	box-shadow: var(--inset-pneumo-shadow);
 	padding: 1rem;
 }
 
