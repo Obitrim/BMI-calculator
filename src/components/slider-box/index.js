@@ -35,7 +35,7 @@ Index.propTypes = {
 Index.defaultProps = {
 	maxWidth: '100%',
 	label: 'Input Label',
-	min: 0,
+	min: 0.01,
 	max: 100,
 	step: 0.1
 }
