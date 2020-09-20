@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BMI Calculator
+
+This project is a body mass index application that considers the age and sex of an individual who wants to calculate his or BMI.
+It uses **Weight** in (kg) and **Height** in (m) in calculating. 
+
+Aside the calculator that comes with it, BMI calculator aims to educate anyone who has no idea what BMI(Body Mass Index), otherwise 
+known as the body fat index, is. It Provides health tips to help improve one's BMI.
+
+## How to use
+1. Clone project by running ```git clone https://github.com/Obitrim/BMI-calculator.git```
+2. Cd into directory of cloned project ```cd <cloned-project-directory-name>``` 
+3. Install dependencies with ```npm install```
+4. Run ```npm start```
+
+## Key functionalities
+*. Calculate your Body Mass Index
+**. Get to know about what BMI is about.
+***.  Get some health tips from good sources as to how to manage a high BMI
+
+## Screenshots
+![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-desktop.png)
+
+![desktop-shot](https://github.com/Obitrim/BMI-calculator/blob/master/screenshots/bmi-mobile.png)
 
 ## Available Scripts
 
@@ -26,43 +48,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
